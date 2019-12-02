@@ -1,0 +1,29 @@
+.formgrp {
+      margin: 0 40px;
+      width: 250px;
+      height: 22px;
+      text-align: center;
+      font-size: 14px;
+      border: solid 1px #6c6f79;
+      color: #0d0f5a;
+  }
+
+ select {
+      padding: 5px 50px 5px 50px;
+      font-size: 14px;
+      border: solid 1px #6c6f79;
+      color: #0d0f5a;
+      font-weight: bold;
+  }
+
+  .contain {
+      margin: 50px 85px 0 200px;
+  }
+
+  div#inputModelautocomplete-list {
+      margin: 5px 433px 5px 364px;
+  }
+
+  div#inputModelautocomplete-list>div {
+      margin-bottom: 10px;
+  }

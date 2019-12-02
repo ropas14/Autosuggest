@@ -1,0 +1,17 @@
+{
+  "name": "autocorrect",
+  "version": "1.0.0",
+  "description": "auto correct or give suggestion when typing in taking data from json",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "RS",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
