@@ -73,7 +73,7 @@ $(document).ready(function() {
                     /*create a DIV element for each matching element:*/
                     b = document.createElement("DIV");
                     /*make the matching letters bold:*/
-                    arrmodel[i].substr(0, val.length).toUpperCase() ==! val.toUpperCase()?
+                    arrmodel[i].substr(0, val.length).toUpperCase() !== val.toUpperCase()?
                      b.innerHTML = lblbrand.toUpperCase() + "  "+ arrmodel[i].substr(0,pos) + "<strong>" + arrmodel[i].substr(pos, val.length) + "</strong>"
                     : b.innerHTML = lblbrand.toUpperCase() + "  " + "<strong>" + arrmodel[i].substr(0, val.length) + "</strong>";
                     b.innerHTML += arrmodel[i].substr(val.length);
